@@ -3,7 +3,7 @@ package dano_fra.entities;
 import java.util.Random;
 public class Customers {
     private Long id;
-    private final String name;
+    private  String name;
     private int tier;
 
     Random random = new Random();
@@ -13,6 +13,7 @@ public class Customers {
         this.name = name;
         this.tier = tier;
     }
+
 
     public String getName() {
         return name;
